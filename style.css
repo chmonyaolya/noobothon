@@ -1,0 +1,23 @@
+
+body {
+    overflow: hidden;
+    background-color: #272727;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+}
+
+.main_background {
+    
+}
+
+.block {
+    min-width: 30px;
+    min-height: 100%;
+}
