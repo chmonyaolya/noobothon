@@ -34,11 +34,9 @@ main {
 
 .chip {
     margin-left: 3px;
-    height: 362px;
-
 }
 
-.baloon {
+.balloon {
     margin-left: 270px;
     position: absolute;
     margin-top: 140px;
@@ -58,6 +56,10 @@ main {
 
 .mega {
     height: 270px;
+}
+
+.nint {
+    margin-right: 700px;
 }
 
 .season {
