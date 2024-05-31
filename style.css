@@ -1,0 +1,67 @@
+
+body {
+    overflow: hidden;
+    background-color: #272727;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
+}
+
+main {
+    display: flex;
+    position: relative;
+}
+
+.main_background {
+    height: 337px;
+    margin-top: 79px;
+}
+
+.block {
+    min-width: 30px;
+    min-height: 100%;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+}
+
+.chip {
+    margin-left: 3px;
+    height: 362px;
+
+}
+
+.baloon {
+    margin-left: 270px;
+    position: absolute;
+    margin-top: 140px;
+    height: 150px;
+}
+
+.circus {
+    margin-top: 235px;
+    height: 92px;
+}
+
+.panic {
+    margin-left: 390px;
+    position: absolute;
+    height: 240px;
+}
+
+.mega {
+    height: 270px;
+}
+
+.season {
+    margin-right: 10px;
+    margin-left: 400px;
+}
+
