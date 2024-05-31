@@ -1,2 +1,2 @@
 # noobothon
-https://GITHUB-olgasabich.github.io/noobothon/noobothon.html
+https://olgasabich.github.io/noobothon/noobothon.html
