@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 550px;
+    height: 600px;
 }
 
 main {
@@ -16,13 +16,8 @@ main {
 }
 
 .main_background {
-    height: 337px;
+    height: 280px;
     margin-top: 79px;
-}
-
-.block {
-    min-width: 30px;
-    min-height: 100%;
 }
 
 .images {
@@ -33,45 +28,96 @@ main {
 }
 
 .chip {
-    margin-left: 3px;
+    margin-left: -30px;
+}
+
+.chip_img {
+    height: 362px;
 }
 
 .balloon {
-    margin-left: 270px;
+    margin-left: 250px;
     position: absolute;
-    margin-top: 140px;
+    margin-top: 150px;
     width: 100%;
     height: 8%;
     position: absolute;
     content: '';
     transform: translate3d(0, - 1%, 0);
     animation: spin 1.4s infinite linear;
+}
 
+.balloon_img {
+    height: 110px;
 }
 
 
 .circus {
-    margin-top: 235px;
+    margin-left: 390px;
+    position: absolute; 
+    margin-top: 235px;  
+}
+
+.circus_img {
     height: 92px;
 }
 
 .panic {
-    margin-left: 390px;
-    position: absolute;
-    height: 240px;
+    margin-left: 360px;
+    position: absolute; 
+}
+
+.panic_img {
+    height: 230px;
 }
 
 .mega {
-    height: 270px;
+    margin-right: -70px;
+}
+
+.mega_img {
+    height: 250px;
 }
 
 .nint {
-    margin-right: 700px;
+    margin-right: 730px;
+}
+
+.nint_img {
+    height: 50px;
 }
 
 .season {
     margin-right: 10px;
     margin-left: 400px;
+}
+
+.fire {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 200px;  
+}
+
+.fire_img {
+    height: 150px;
+    filter: blur(1px);
+}
+
+.triangle {
+    position: absolute;
+    width: 100%;
+    margin-top: 298px;  
+}
+
+.noob {
+    position: absolute;
+    display: flex;
+    margin-top: 340px;  
+    margin-right: 520px;
+}
+
+.noob_img {
+    height: 70px;
 }
 
 @keyframes spin {
