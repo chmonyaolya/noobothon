@@ -200,6 +200,62 @@ main {
     }
   }
 
+  @media (max-width: 690px) {
+    body {
+        height: 360px;
+    }
+    .main_background {
+        height: 150px;
+        margin-top: 50px;
+    }
+    .chip img {
+        height: 200px;
+    } 
+    .triangle {
+        margin-top: 168px;  
+    }
+    .circus {
+        visibility: hidden;
+    }
+    .balloon {
+        margin-left: 260px;
+        margin-top: 20px;
+    }
+    .panic {
+        margin-top: 50px;
+        margin-left: 170px;
+    } 
+    .panic img {
+        height: 100px;
+    }
+    .fire {
+        margin-left: 250px;
+        margin-top: 120px;  
+    }
+    .fire img {
+        height: 70px;
+    }
+    .mega img {
+        height: 130px;
+    }
+    .noob {
+        margin-top: 185px;  
+        margin-right: 110px;
+    }
+    .nint {
+        margin-right: 325px;
+    }
+    .footer {
+        margin-left: 150px;
+    }
+    .season img {
+        height: 15px;
+    }
+    .seasons img {
+        height: 55px;
+    }
+  }
+
 
 @keyframes spin {
     0% {
