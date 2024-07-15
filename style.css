@@ -88,7 +88,7 @@ main {
 .footer {
     display: flex;
     align-items: center;
-    margin-left: 400px;
+    margin-left: 300px;
 }
 
 .season {
@@ -189,7 +189,7 @@ main {
         margin-right: 480px;
     }
     .footer {
-        margin-left: 200px;
+        margin-left: 100px;
         margin-top: -50px;
     }
     .season img {
@@ -246,7 +246,7 @@ main {
         margin-right: 325px;
     }
     .footer {
-        margin-left: 150px;
+        margin-left: 50px;
     }
     .season img {
         height: 15px;
