@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 600px;
+    height: 630px;
 }
 
 main {
@@ -88,11 +88,18 @@ main {
 .footer {
     display: flex;
     align-items: center;
-    margin-left: 300px;
+    margin-left: 600px;
+    flex-direction: column;
+    margin-top: -100px;
 }
 
 .season {
     margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.seasons {
+    margin-bottom: 5px;
 }
 
 .fire {
@@ -126,7 +133,7 @@ main {
 
 @media (max-width: 930px) {
     body {
-        height: 450px;
+        height: 520px;
     }
     .main_background {
         height: 200px;
@@ -189,8 +196,8 @@ main {
         margin-right: 480px;
     }
     .footer {
-        margin-left: 100px;
-        margin-top: -50px;
+        margin-left: 400px;
+        margin-top: -100px;
     }
     .season img {
         height: 25px;
@@ -202,7 +209,7 @@ main {
 
   @media (max-width: 690px) {
     body {
-        height: 360px;
+        height: 410px;
     }
     .main_background {
         height: 150px;
@@ -246,7 +253,8 @@ main {
         margin-right: 325px;
     }
     .footer {
-        margin-left: 50px;
+        margin-left: 300px;
+        margin-top: -100px;
     }
     .season img {
         height: 15px;
@@ -258,7 +266,7 @@ main {
 
   @media (max-width: 480px) {
     body {
-        height: 250px;
+        height: 290px;
     }
     .main_background {
         height: 100px;
@@ -308,8 +316,8 @@ main {
         height: 30px;
     }
     .footer {
-        margin-left: 80px;
-        margin-top: -10px;
+        margin-left: 170px;
+        margin-top: -50px;
     }
     .season img {
         height: 10px;
