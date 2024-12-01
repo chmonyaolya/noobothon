@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 630px;
+    height: 720px;
 }
 
 main {
@@ -133,7 +133,7 @@ main {
 
 @media (max-width: 930px) {
     body {
-        height: 520px;
+        height: 590px;
     }
     .main_background {
         height: 200px;
@@ -209,7 +209,7 @@ main {
 
   @media (max-width: 690px) {
     body {
-        height: 410px;
+        height: 480px;
     }
     .main_background {
         height: 150px;
