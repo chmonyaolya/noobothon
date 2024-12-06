@@ -51,14 +51,14 @@ main {
     height: 110px;
 }
 
-.circus {
+.mappy {
     margin-left: 390px;
     position: absolute; 
-    margin-top: 235px;  
+    margin-top: 240px;  
 }
 
-.circus img {
-    height: 92px;
+.mappy img {
+    height: 85px;
 }
 
 .panic {
@@ -178,11 +178,11 @@ main {
     .balloon img {
         height: 70px;
     }
-    .circus {
+    .mappy {
         margin-left: 290px;
         margin-top: 175px;  
     }
-    .circus img {
+    .mappy img {
         height: 65px;
     }
     .triangle {
@@ -221,7 +221,7 @@ main {
     .triangle {
         margin-top: 168px;  
     }
-    .circus {
+    .mappy {
         visibility: hidden;
     }
     .balloon {
