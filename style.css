@@ -15,6 +15,7 @@ main {
     position: relative;
 }
 
+
 .main_background {
     height: 280px;
     margin-top: 79px;
@@ -129,7 +130,6 @@ main {
 .noob img {
     height: 70px;
 }
-
 
 @media (max-width: 930px) {
     body {
@@ -266,7 +266,7 @@ main {
 
   @media (max-width: 480px) {
     body {
-        height: 290px;
+        height: 350px;
     }
     .main_background {
         height: 100px;
@@ -326,7 +326,6 @@ main {
         height: 40px;
     }
   }
-
 
 @keyframes spin {
     0% {
