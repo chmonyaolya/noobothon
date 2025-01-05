@@ -1,3 +1,9 @@
+.tiny5-regular {
+    font-family: "Tiny5", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+  }
 
 body {
     overflow-x: hidden;
@@ -7,7 +13,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 720px;
+    height: 660px;
+    font-family: "2P", "Arial", sans-serif;
 }
 
 main {
@@ -95,7 +102,7 @@ main {
 }
 
 .season {
-    margin-right: 10px;
+    color: #847429;
     margin-bottom: 15px;
 }
 
@@ -161,7 +168,6 @@ main {
         height: 90px;
     }
     .season {
-        margin-right: 10px;
         margin-left: 0px;
     }
     .chip {
@@ -338,3 +344,63 @@ main {
       transform: translate3d(0, -100%, 0);
     }
   }
+
+
+
+  .dropbtn {
+    background-color: transparent;
+    color: #847429;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    font-family: "Tiny5", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: transparent;
+  }
+  
+  .dropdown {
+    float: left;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #272727;
+    min-width: 200px;
+    overflow: auto;
+    z-index: 1;
+    align-items: center;
+    margin-top: -260px;
+    margin-left: -54px;
+  }
+  
+  .dropdown-content a {
+    color: #847429;
+    padding: 5px ;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+  a {
+    color: #847429;
+    text-decoration: none;
+  }
+
+  .mara {
+    padding: 10px;
+    margin-top: 25px;
+  }
+
+
