@@ -138,6 +138,66 @@ main {
     height: 70px;
 }
 
+
+
+
+.dropbtn {
+    background-color: transparent;
+    color: #847429;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    font-family: "Tiny5", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: transparent;
+  }
+  
+  .dropdown {
+    float: left;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #272727;
+    min-width: 200px;
+    overflow: auto;
+    z-index: 1;
+    align-items: center;
+    margin-top: -260px;
+    margin-left: -54px;
+  }
+  
+  .dropdown-content a {
+    color: #847429;
+    padding: 5px ;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+  a {
+    color: #847429;
+    text-decoration: none;
+  }
+
+  .mara {
+    padding: 10px;
+    margin-top: 25px;
+  }
+
+
 @media (max-width: 930px) {
     body {
         height: 590px;
@@ -268,6 +328,9 @@ main {
     .seasons img {
         height: 55px;
     }
+    .dropdown-content {
+        margin-top: 0px;
+    }
   }
 
   @media (max-width: 480px) {
@@ -331,6 +394,15 @@ main {
     .seasons img {
         height: 40px;
     }
+    .tiny5-regular {
+        font-size: 16px;
+    }
+    .dropdown-content {
+        margin-left: -73px;
+    }
+    .dropbtn {
+        padding: 3px;
+    }
   }
 
 @keyframes spin {
@@ -343,64 +415,6 @@ main {
     100% {
       transform: translate3d(0, -100%, 0);
     }
-  }
-
-
-
-  .dropbtn {
-    background-color: transparent;
-    color: #847429;
-    padding: 8px;
-    border: none;
-    cursor: pointer;
-    font-family: "Tiny5", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: transparent;
-  }
-  
-  .dropdown {
-    float: left;
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #272727;
-    min-width: 200px;
-    overflow: auto;
-    z-index: 1;
-    align-items: center;
-    margin-top: -260px;
-    margin-left: -54px;
-  }
-  
-  .dropdown-content a {
-    color: #847429;
-    padding: 5px ;
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
-  .dropdown a:hover {background-color: #ddd;}
-  
-  .show {display: block;}
-
-  a {
-    color: #847429;
-    text-decoration: none;
-  }
-
-  .mara {
-    padding: 10px;
-    margin-top: 25px;
   }
 
 
