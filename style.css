@@ -176,7 +176,7 @@ main {
   
   .dropdown-content a {
     color: #847429;
-    padding: 5px ;
+    padding: 6px ;
     text-decoration: none;
     display: flex;
     flex-direction: row;
@@ -195,6 +195,13 @@ main {
   .mara {
     padding: 10px;
     margin-top: 25px;
+  }
+
+  .change-lang {
+    height: 30px;
+    position: absolute;
+    margin-left: 265px;
+    z-index: 1;
   }
 
 
