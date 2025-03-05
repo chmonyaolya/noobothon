@@ -176,7 +176,7 @@ main {
   
   .dropdown-content a {
     color: #847429;
-    padding: 5px ;
+    padding: 6px ;
     text-decoration: none;
     display: flex;
     flex-direction: row;
