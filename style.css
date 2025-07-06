@@ -262,9 +262,6 @@ main {
     margin-right: 520px;
 }
 
-
-
-
 .dropbtn {
     background-color: transparent;
     color: #847429;
@@ -390,6 +387,15 @@ main {
     .mappy img {
         height: 65px;
     }
+
+    .pill {
+        margin-left: 240px;
+        margin-top: 185px;  
+    }
+    .pill img {
+        height: 55px;
+    }
+
     .triangle {
         margin-top: 217px;  
     }
@@ -410,6 +416,11 @@ main {
     .seasons img {
         height: 70px;
     }
+
+    .ball, .ball2, .ball3, .ball4, .ball5, .ball6, .ball7 {
+        display: none;
+    }
+
   }
 
   @media (max-width: 690px) {
@@ -434,16 +445,21 @@ main {
     .mappy {
         visibility: hidden;
     }
+
+    .pill {
+        visibility: hidden;
+    }
+
     .balloon {
         margin-left: 260px;
         margin-top: 20px;
     }
     .panic {
         margin-top: 50px;
-        margin-left: 170px;
+        margin-left: 200px;
     } 
     .panic img {
-        height: 100px;
+        height: 80px;
     }
     .fire {
         margin-left: 250px;
