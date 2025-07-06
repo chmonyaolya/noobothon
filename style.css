@@ -170,6 +170,15 @@ main {
     height: 85px;
 }
 
+.pill {
+    margin-left: 350px;
+    position: absolute; 
+    margin-top: 260px;  
+}
+.pill img {
+    height: 75px;
+}
+
 .panic {
     margin-left: 360px;
     position: absolute; 
