@@ -148,7 +148,7 @@ main {
     position: absolute;
     content: '';
     transform: translate3d(0, - 1%, 0);
-    animation: spin 1.7s infinite linear;
+    animation: spin 2s infinite linear;
     opacity: 0.8;
 }
 
