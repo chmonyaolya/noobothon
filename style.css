@@ -54,6 +54,108 @@ main {
     animation: spin 1.4s infinite linear;
 }
 
+.ball {
+    margin-left: 550px;
+    position: absolute;
+    margin-top: -340px;
+    height: 7%;
+    content: '';
+    transform: translate3d(0, - 1%, 0);
+    animation: spin 1.9s infinite linear;
+    opacity: 0.7;
+}
+
+.ball2 {
+    margin-left: 330px;
+    position: absolute;
+    margin-top: 270px;
+    height: 8%;
+    content: '';
+    transform: translate3d(0, - 1%, 0);
+    animation: spin 2.3s infinite linear;
+    opacity: 0.4;
+}
+
+.ball2 img {
+    height: 50px;
+}
+
+.ball3 {
+    margin-left: 260px;
+    position: absolute;
+    margin-top: 190px;
+    height: 9%;
+    position: absolute;
+    content: '';
+    transform: translate3d(0, - 1%, 0);
+    animation: spin 1.7s infinite linear;
+    opacity: 1;
+}
+
+.ball4 {
+    margin-left: 650px;
+    position: absolute;
+    margin-top: 250px;
+    height: 8%;
+    position: absolute;
+    content: '';
+    transform: translate3d(0, - 1%, 0);
+    animation: spin 1.7s infinite linear;
+    opacity: 0.9;
+}
+
+.ball4 img {
+    height: 80px;
+}
+
+.ball5 {
+    margin-left: -50px;
+    position: absolute;
+    margin-top: 100px;
+    height: 15%;
+    position: absolute;
+    content: '';
+    transform: translate3d(0, - 1%, 0);
+    animation: spin 2.3s infinite linear;
+    opacity: 0.7;
+}
+
+.ball5 img {
+    height: 90px;
+}
+
+.ball6 {
+    margin-left: 710px;
+    position: absolute;
+    margin-top: 150px;
+    height: 8%;
+    position: absolute;
+    content: '';
+    transform: translate3d(0, - 1%, 0);
+    animation: spin 1.7s infinite linear;
+    opacity: 0.4;
+}
+
+.ball6 img {
+    height: 50px;
+}
+
+.ball7 {
+    margin-left: 850px;
+    position: absolute;
+    margin-top: 200px;
+    height: 8%;
+    position: absolute;
+    content: '';
+    transform: translate3d(0, - 1%, 0);
+    animation: spin 2s infinite linear;
+    opacity: 0.8;
+}
+
+.ball7 img {
+    height: 100px;
+}
+
 .balloon img {
     height: 110px;
 }
@@ -136,6 +238,13 @@ main {
 
 .noob img {
     height: 70px;
+}
+
+.ball img {
+    position: absolute;
+    display: flex;
+    margin-top: 340px;  
+    margin-right: 520px;
 }
 
 
