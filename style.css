@@ -43,6 +43,11 @@ main {
     height: 362px;
 }
 
+.duck {
+    margin-left: -30px;
+    margin-top: 5px;
+}
+
 .balloon {
     margin-left: 250px;
     position: absolute;
@@ -174,6 +179,7 @@ main {
     margin-left: 350px;
     position: absolute; 
     margin-top: 260px;  
+    z-index: 1;
 }
 .pill img {
     height: 75px;
@@ -361,6 +367,14 @@ main {
     .chip img {
         height: 262px;
     } 
+
+    .duck {
+        margin-left: -10px;
+    }
+    .duck img {
+        height: 262px;
+    } 
+
     .balloon {
         margin-left: 200px;
         margin-top: 120px;
@@ -409,6 +423,11 @@ main {
     .chip img {
         height: 200px;
     } 
+
+    .duck img {
+        height: 200px;
+    } 
+
     .triangle {
         margin-top: 168px;  
     }
@@ -469,6 +488,11 @@ main {
     .chip img {
         height: 130px;
     } 
+
+    .duck img {
+        height: 130px;
+    } 
+
     .panic {
         margin-top: 50px;
         margin-left: 120px;
