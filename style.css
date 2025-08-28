@@ -48,6 +48,14 @@ main {
     margin-top: 5px;
 }
 
+.battletoads {
+    margin-left: -60px;
+}
+
+.battletoads img {
+    height: 375px;
+}
+
 .balloon {
     margin-left: 250px;
     position: absolute;
@@ -372,6 +380,10 @@ main {
         height: 262px;
     } 
 
+    .battletoads img {
+        height: 275px;
+    } 
+
     .balloon {
         margin-left: 200px;
         margin-top: 120px;
@@ -437,6 +449,10 @@ main {
 
     .duck img {
         height: 200px;
+    } 
+
+    .battletoads img {
+        height: 220px;
     } 
 
     .triangle {
@@ -507,6 +523,14 @@ main {
 
     .duck img {
         height: 130px;
+    } 
+
+    .battletoads {
+        margin-left: -30px;
+    } 
+
+    .battletoads img {
+        height: 140px;
     } 
 
     .panic {
