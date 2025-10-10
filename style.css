@@ -193,6 +193,28 @@ main {
     height: 75px;
 }
 
+.bucky {
+    margin-left: 300px;
+    position: absolute; 
+    margin-top: 245px;  
+    z-index: 1;
+}
+
+.bucky img {
+    height: 90px;
+}
+
+.bucky2 {
+    margin-left: 385px;
+    position: absolute; 
+    margin-top: 250px;  
+    z-index: 1;
+}
+
+.bucky2 img {
+    height: 90px;
+}
+
 .panic {
     margin-left: 360px;
     position: absolute; 
@@ -208,6 +230,24 @@ main {
 
 .mega img {
     height: 250px;
+}
+
+.cook {
+    margin-right: -50px;
+    margin-top: 18px;
+}
+
+.cook img {
+    height: 300px;
+}
+
+.ai1 {
+    margin-left: -100px;
+    margin-top: 60px;
+}
+
+.ai1 img {
+    height: 170px;
 }
 
 .nint {
@@ -242,6 +282,17 @@ main {
 }
 
 .fire img {
+    height: 150px;
+    filter: blur(1px);
+}
+
+.palm {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 180px;  
+}
+
+.palm img {
     height: 150px;
     filter: blur(1px);
 }
@@ -433,6 +484,34 @@ main {
         display: none;
     }
 
+    .ai1 img {
+        height: 90px;
+    }   
+    
+    .bucky {
+        margin-top: 180px;
+    }
+
+    .bucky img {
+        height: 60px;
+    }
+
+    .bucky2 {
+        display: none;
+    }
+
+    .cook img{
+        height: 210px;
+    }
+
+    .palm {
+        margin-top: 120px;
+        margin-left: 340px;
+    }
+
+    .palm img {
+        height: 120px;
+
   }
 
   @media (max-width: 690px) {
@@ -507,6 +586,30 @@ main {
     .dropdown-content {
         margin-top: 0px;
     }
+
+    .ai1 {
+        display: none;
+    }
+
+    .palm {
+        margin-left: 210px;
+        margin-top: 50px;
+    }
+
+    .palm img {
+        height: 130px;
+        filter: none;
+    }
+
+    .cook img {
+        height: 160px;
+    }
+
+    .bucky {
+        margin-top: 125px;
+        margin-left: 190px;
+    }
+
   }
 
   @media (max-width: 480px) {
@@ -591,6 +694,32 @@ main {
     }
     .dropbtn {
         padding: 3px;
+    }
+
+    .palm {
+        margin-top: 40px;
+        margin-left: 150px;
+    }
+
+    .palm img {
+        height: 80px;
+    }
+
+    .cook img {
+        height: 100px;
+    }
+
+    .cook {
+        margin-right: -30px;
+    }
+
+    .bucky {
+        margin-top: 70px;
+        margin-left: 120px;
+    }
+
+    .bucky img {
+        height: 40px;
     }
   }
 
