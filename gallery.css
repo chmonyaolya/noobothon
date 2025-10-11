@@ -116,14 +116,19 @@ div {
 
 .images {
     display: flex;
-    justify-content: space-between;
-    margin-left: 40px;
-    margin-right: 40px;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 40px;
     flex-wrap: wrap;
 
 }
 
 .images img{
-    max-height: 900px;
+    max-height: 400px;
+}
+
+.images a{
+    margin-bottom: 30px;
+    margin-left: 30px;
 }
