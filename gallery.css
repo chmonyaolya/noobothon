@@ -125,7 +125,12 @@ div {
 }
 
 .images img{
-    max-height: 400px;
+    height: 20em;
+    transition: 1s;
+}
+
+.images img:hover{
+    transform: scale(2);
 }
 
 .images a{
