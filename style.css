@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 660px;
+    height: 700px;
     font-family: "2P", "Arial", sans-serif;
 }
 
@@ -268,15 +268,19 @@ main {
 
 .season {
     color: #847429;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .seasons {
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .gallery {
     margin-top: 10px;
+}
+
+.sto {
+    margin-top: 20px;
 }
 
 
@@ -379,7 +383,7 @@ main {
 
   .mara {
     padding: 10px;
-    margin-top: 25px;
+    margin-top: 10px;
   }
 
   .change-lang {
@@ -392,7 +396,7 @@ main {
 
 @media (max-width: 930px) {
     body {
-        height: 590px;
+        height: 610px;
     }
     .main_background {
         height: 200px;
@@ -521,7 +525,7 @@ main {
 
   @media (max-width: 690px) {
     body {
-        height: 480px;
+        height: 520px;
     }
     .main_background {
         height: 150px;
@@ -619,7 +623,7 @@ main {
 
   @media (max-width: 480px) {
     body {
-        height: 350px;
+        height: 360px;
     }
     .main_background {
         height: 100px;
