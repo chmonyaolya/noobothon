@@ -49,11 +49,29 @@ main {
 }
 
 .battletoads {
-    margin-left: -60px;
+    margin-left: -10px;
 }
 
 .battletoads img {
     height: 375px;
+}
+
+.alfred {
+    margin-left: -120px;
+    margin-top: 12px;
+}
+
+.alfred img {
+    height: 370px;
+}
+
+.bobble {
+    margin-top: -170px;
+    z-index: 1;
+}
+
+.bobble img{
+    height: 500px;
 }
 
 .balloon {
@@ -444,6 +462,18 @@ main {
         height: 275px;
     } 
 
+    .bobble {
+        margin-top: -30px;
+    } 
+
+    .bobble img {
+        height: 270px;
+    } 
+
+    .alfred img {
+        height: 270px;
+    } 
+
     .balloon {
         margin-left: 200px;
         margin-top: 120px;
@@ -541,6 +571,22 @@ main {
 
     .battletoads img {
         height: 220px;
+    } 
+
+    .alfred  {
+        margin-left: -50px;
+    } 
+
+    .alfred img {
+        height: 200px;
+    } 
+
+    .bobble  {
+        margin-top: -20px;
+    } 
+
+    .bobble img {
+        height: 200px;
     } 
 
     .triangle {
@@ -643,6 +689,18 @@ main {
 
     .battletoads img {
         height: 140px;
+    } 
+
+    .alfred {
+        margin-left: -30px;
+    } 
+
+    .alfred img {
+        height: 130px;
+    } 
+
+    .bobble {
+        margin-top: -80px;
     } 
 
     .panic {
