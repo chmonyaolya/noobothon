@@ -1,6 +1,6 @@
 // Set up flaps ////////////////////////////////////////////
 speed = .2; // seconds
-beginStr = "11 СЕЗОН".toUpperCase().split("");
+beginStr = "12 СЕЗОН".toUpperCase().split("");
 endStr = " НУБОФОН ".toUpperCase().split("");
 // A-Z, 0-9, spaces only
 
