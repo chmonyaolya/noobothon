@@ -412,6 +412,72 @@ main {
   }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .noobo img {
+    height: 360px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+ 
+    @media (max-width: 1483px) {
+        .noobo img {
+         height: 330px;
+    }
+
+    @media (max-width: 1367px) {
+        .noobo img {
+         height: 300px;
+    }
+
+    @media (max-width: 1251px) {
+        .noobo img {
+         height: 250px;
+    }
+    
+    @media (max-width: 1045px) {
+        .noobo img {
+         height: 200px;
+    }
+    
+    @media (max-width: 825px) {
+        .noobo img {
+         height: 150px;
+    }
+  
+    @media (max-width: 639px) {
+        .noobo img {
+         height: 100px;
+    }
+ 
+    @media (max-width: 423px) {
+        .noobo img {
+         height: 50px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 930px) {
     body {
         height: 610px;
@@ -804,3 +870,26 @@ main {
   }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
