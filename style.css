@@ -270,6 +270,7 @@ main {
 
 .nint {
     margin-right: 730px;
+    visibility: hidden;
 }
 
 .nint img {
@@ -335,6 +336,7 @@ main {
     display: flex;
     margin-top: 340px;  
     margin-right: 520px;
+    visibility: hidden;
 }
 
 .noob img {
@@ -410,6 +412,140 @@ main {
     margin-left: 265px;
     z-index: 1;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .noobo img {
+    height: 360px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+    .nemo img {
+    height: 160px;
+    margin-top: -20px;
+    margin-left: 770px;
+  }
+
+    .worm img {
+        height: 40px;
+        margin-left: -500px;
+        margin-top: 50px;
+    }
+    .worm2 img {
+        height: 30px;
+        margin-left: -800px;
+        margin-top: 500px;
+    }
+    .worm3 img {
+        height: 80px;
+        margin-left: 80px;
+        margin-top: 450px;
+    }
+    .worm4 img {
+        height: 20px;
+        margin-left: -1320px;
+        margin-top: 140px;
+    }
+    .worm5 img {
+        height: 30px;
+        margin-top: 50px;
+    }
+    .worm6 img {
+        height: 20px;
+        margin-left: -500px;
+        margin-top: 230px;
+    }
+    
+
+    @media (max-width: 1483px) {
+        .noobo img {
+            height: 330px;}
+        .nemo img {
+            height: 140px;
+            margin-top: 0px;
+            margin-left: 700px;}
+  }
+
+    @media (max-width: 1367px) {
+        .noobo img {
+            height: 300px;}
+        .nemo img {
+            height: 120px;
+            margin-top: 15px;
+            margin-left: 640px;} 
+    }
+
+    @media (max-width: 1251px) {
+        .noobo img {
+            height: 250px;}
+        .nemo img {
+            height: 100px;
+            margin-top: 28px;
+            margin-left: 550px;}  
+    }
+    
+    @media (max-width: 1045px) {
+        .noobo img {
+            height: 200px;}
+        .nemo img {
+            height: 80px;
+            margin-top: 43px;
+            margin-left: 430px;}  
+    }
+    
+    @media (max-width: 825px) {
+        .noobo img {
+            height: 150px;}
+        .nemo img {
+            height: 60px;
+            margin-top: 58px;
+            margin-left: 330px;}  
+        .worm3, .worm5 {
+            visibility: hidden;
+        }
+    }
+  
+    @media (max-width: 639px) {
+        .noobo img {
+            height: 100px;}
+        .nemo img {
+            height: 40px;
+            margin-top: 70px;
+            margin-left: 220px;}  
+    }
+ 
+    @media (max-width: 423px) {
+        .noobo img {
+            height: 50px;}
+        .nemo img {
+            height: 20px;
+            margin-top: 85px;
+            margin-left: 110px;}  
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 930px) {
@@ -501,6 +637,7 @@ main {
     .triangle {
         margin-top: 217px;  
     }
+
     .noob {
         margin-top: 250px;  
         margin-right: 270px;
@@ -804,3 +941,26 @@ main {
   }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
